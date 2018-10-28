@@ -19,18 +19,18 @@ const ChatHeader = (props) => {
 				    </a>
 				  </div>
 
-				  <div className={`navbar-menu ${props.menu ? 'is-active' : ''}`}>
+				  <div className={`navbar-menu ${props.menu ? 'is-active' : ''}`} >
 				    <div className="navbar-start">
 				      <a className="navbar-item">
 				        Home
 				      </a>
-				      <a className="navbar-item" onClick={props.handleModal}>
+				      <a className="navbar-item" onClick={props.handleModal} >
 				        Groups
 				      </a>
 				      <a className="navbar-item">
 				        Login
 				      </a>
-				      <a className="navbar-item">
+				      <a className="navbar-item" onClick={props.handleLogout} >
 				        Log Out
 				      </a>
 				      <a className="navbar-item">

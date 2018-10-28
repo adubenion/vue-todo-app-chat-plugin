@@ -2,7 +2,7 @@ import React from 'react';
 
 const GroupsModal = (props) => {
 	return (
-		<div className={`modal ${props.modal? 'is-active' : false}`}>;
+		<div className={`modal ${props.menuModal? 'is-active' : false}`}>;
 		  <div className="modal-background" onClick={props.handleModal} ></div>
 		  <div className="modal-content">
 		  	<div className="box">
